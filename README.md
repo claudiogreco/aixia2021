@@ -1,0 +1,6 @@
+# Grounding Dialogue History: Strengths and Weaknesses of Pre-Trained Transformers
+
+Source code described in: Greco, C., Testoni, A., Bernardi, R. (2021). Grounding Dialogue History: Strengths and Weaknesses of Pre-Trained Transformers. Lecture Notes in Artificial Intelligence series (LNCS/LNAI), Springer, volume number 12414.
+
+## Abstract
+We focus on visually grounded dialogue history encoding. We show that GuessWhat?! can be used as a “diagnostic” dataset to understand whether State-of-the-Art encoders manage to capture salient information in the dialogue history. We compare models across several dimensions: the architecture (Recurrent Neural Networks vs. Transformers), the input modalities (only language vs. language and vision), and the model background knowledge (trained from scratch vs. pre-trained and then fine-tuned on the downstream task). We show that pre-trained Transformers, RoBERTa and LXMERT, are able to identify the most salient information independently of the order in which the dialogue history is processed. Moreover, we find that RoBERTa handles the dialogue structure to some extent; instead LXMERT can effectively ground short dialogues, but it fails in processing longer dialogues having a more complex structure.
